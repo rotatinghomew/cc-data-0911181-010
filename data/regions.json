@@ -1,0 +1,10 @@
+[
+  {
+    "region": "rural",
+    "budget": 60000
+  },
+  {
+    "region": "urban",
+    "budget": 80000
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "study": "S0",
+    "institution": "Institute0",
+    "design": "observational",
+    "population": "cohort-0",
+    "sample": 30
+  },
+  {
+    "study": "S1",
+    "institution": "Institute1",
+    "design": "randomized",
+    "population": "cohort-1",
+    "sample": 34
+  },
+  {
+    "study": "S2",
+    "institution": "Institute2",
+    "design": "randomized",
+    "population": "cohort-2",
+    "sample": 38
+  },
+  {
+    "study": "S3",
+    "institution": "Institute3",
+    "design": "observational",
+    "population": "cohort-3",
+    "sample": 42
+  },
+  {
+    "study": "S4",
+    "institution": "Institute4",
+    "design": "randomized",
+    "population": "cohort-4",
+    "sample": 46
+  },
+  {
+    "study": "S5",
+    "institution": "Institute0",
+    "design": "randomized",
+    "population": "cohort-5",
+    "sample": 50
+  },
+  {
+    "study": "S6",
+    "institution": "Institute1",
+    "design": "observational",
+    "population": "cohort-6",
+    "sample": 54
+  },
+  {
+    "study": "S7",
+    "institution": "Institute2",
+    "design": "randomized",
+    "population": "cohort-7",
+    "sample": 58
+  },
+  {
+    "study": "S8",
+    "institution": "Institute3",
+    "design": "randomized",
+    "population": "cohort-8",
+    "sample": 62
+  },
+  {
+    "study": "S9",
+    "institution": "Institute4",
+    "design": "observational",
+    "population": "cohort-9",
+    "sample": 66
+  },
+  {
+    "study": "S10",
+    "institution": "Institute0",
+    "design": "randomized",
+    "population": "cohort-10",
+    "sample": 70
+  },
+  {
+    "study": "S11",
+    "institution": "Institute1",
+    "design": "randomized",
+    "population": "cohort-11",
+    "sample": 74
+  }
+]

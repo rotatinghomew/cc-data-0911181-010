@@ -1,0 +1,10 @@
+[
+  {
+    "school": "village-school",
+    "region": "rural"
+  },
+  {
+    "school": "city-school",
+    "region": "urban"
+  }
+]

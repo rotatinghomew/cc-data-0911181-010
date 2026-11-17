@@ -1,0 +1,130 @@
+{
+  "studies": {
+    "key": [
+      "study"
+    ],
+    "required": [
+      "study",
+      "institution",
+      "design",
+      "population",
+      "sample"
+    ],
+    "foreign": {}
+  },
+  "arms": {
+    "key": [
+      "arm"
+    ],
+    "required": [
+      "arm",
+      "study",
+      "kind",
+      "enrolled",
+      "observed"
+    ],
+    "foreign": {
+      "study": [
+        "studies",
+        "study"
+      ]
+    }
+  },
+  "effects": {
+    "key": [
+      "effect"
+    ],
+    "required": [
+      "effect",
+      "study",
+      "population",
+      "control",
+      "treatment",
+      "outcome",
+      "scale",
+      "followup_weeks",
+      "estimate",
+      "standard_error"
+    ],
+    "foreign": {
+      "study": [
+        "studies",
+        "study"
+      ],
+      "control": [
+        "arms",
+        "arm"
+      ],
+      "treatment": [
+        "arms",
+        "arm"
+      ],
+      "scale": [
+        "scales",
+        "scale"
+      ]
+    }
+  },
+  "scales": {
+    "key": [
+      "scale"
+    ],
+    "required": [
+      "scale",
+      "construct",
+      "higher",
+      "range"
+    ],
+    "foreign": {}
+  },
+  "publications": {
+    "key": [
+      "publication"
+    ],
+    "required": [
+      "publication",
+      "study",
+      "effect",
+      "year"
+    ],
+    "foreign": {
+      "study": [
+        "studies",
+        "study"
+      ],
+      "effect": [
+        "effects",
+        "effect"
+      ]
+    }
+  },
+  "decisions": {
+    "key": [
+      "decision"
+    ],
+    "required": [
+      "decision",
+      "scope",
+      "status"
+    ],
+    "foreign": {}
+  },
+  "regions": {
+    "key": [
+      "region"
+    ],
+    "required": [
+      "region"
+    ],
+    "foreign": {}
+  },
+  "pilot_schools": {
+    "key": [
+      "school"
+    ],
+    "required": [
+      "school"
+    ],
+    "foreign": {}
+  }
+}

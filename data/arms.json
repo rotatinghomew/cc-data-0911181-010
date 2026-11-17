@@ -1,0 +1,198 @@
+[
+  {
+    "arm": "S0-control",
+    "study": "S0",
+    "kind": "control",
+    "enrolled": 15,
+    "observed": 15
+  },
+  {
+    "arm": "S0-support",
+    "study": "S0",
+    "kind": "support",
+    "enrolled": 15,
+    "observed": 15
+  },
+  {
+    "arm": "S0-peer",
+    "study": "S0",
+    "kind": "peer",
+    "enrolled": 15,
+    "observed": 15
+  },
+  {
+    "arm": "S1-control",
+    "study": "S1",
+    "kind": "control",
+    "enrolled": 17,
+    "observed": 16
+  },
+  {
+    "arm": "S1-support",
+    "study": "S1",
+    "kind": "support",
+    "enrolled": 17,
+    "observed": 16
+  },
+  {
+    "arm": "S2-control",
+    "study": "S2",
+    "kind": "control",
+    "enrolled": 19,
+    "observed": 17
+  },
+  {
+    "arm": "S2-support",
+    "study": "S2",
+    "kind": "support",
+    "enrolled": 19,
+    "observed": 17
+  },
+  {
+    "arm": "S3-control",
+    "study": "S3",
+    "kind": "control",
+    "enrolled": 21,
+    "observed": 18
+  },
+  {
+    "arm": "S3-support",
+    "study": "S3",
+    "kind": "support",
+    "enrolled": 21,
+    "observed": 18
+  },
+  {
+    "arm": "S3-peer",
+    "study": "S3",
+    "kind": "peer",
+    "enrolled": 21,
+    "observed": 18
+  },
+  {
+    "arm": "S4-control",
+    "study": "S4",
+    "kind": "control",
+    "enrolled": 23,
+    "observed": 23
+  },
+  {
+    "arm": "S4-support",
+    "study": "S4",
+    "kind": "support",
+    "enrolled": 23,
+    "observed": 23
+  },
+  {
+    "arm": "S5-control",
+    "study": "S5",
+    "kind": "control",
+    "enrolled": 25,
+    "observed": 24
+  },
+  {
+    "arm": "S5-support",
+    "study": "S5",
+    "kind": "support",
+    "enrolled": 25,
+    "observed": 24
+  },
+  {
+    "arm": "S6-control",
+    "study": "S6",
+    "kind": "control",
+    "enrolled": 27,
+    "observed": 25
+  },
+  {
+    "arm": "S6-support",
+    "study": "S6",
+    "kind": "support",
+    "enrolled": 27,
+    "observed": 25
+  },
+  {
+    "arm": "S6-peer",
+    "study": "S6",
+    "kind": "peer",
+    "enrolled": 27,
+    "observed": 25
+  },
+  {
+    "arm": "S7-control",
+    "study": "S7",
+    "kind": "control",
+    "enrolled": 29,
+    "observed": 26
+  },
+  {
+    "arm": "S7-support",
+    "study": "S7",
+    "kind": "support",
+    "enrolled": 29,
+    "observed": 26
+  },
+  {
+    "arm": "S8-control",
+    "study": "S8",
+    "kind": "control",
+    "enrolled": 31,
+    "observed": 31
+  },
+  {
+    "arm": "S8-support",
+    "study": "S8",
+    "kind": "support",
+    "enrolled": 31,
+    "observed": 31
+  },
+  {
+    "arm": "S9-control",
+    "study": "S9",
+    "kind": "control",
+    "enrolled": 33,
+    "observed": 32
+  },
+  {
+    "arm": "S9-support",
+    "study": "S9",
+    "kind": "support",
+    "enrolled": 33,
+    "observed": 32
+  },
+  {
+    "arm": "S9-peer",
+    "study": "S9",
+    "kind": "peer",
+    "enrolled": 33,
+    "observed": 32
+  },
+  {
+    "arm": "S10-control",
+    "study": "S10",
+    "kind": "control",
+    "enrolled": 35,
+    "observed": 33
+  },
+  {
+    "arm": "S10-support",
+    "study": "S10",
+    "kind": "support",
+    "enrolled": 35,
+    "observed": 33
+  },
+  {
+    "arm": "S11-control",
+    "study": "S11",
+    "kind": "control",
+    "enrolled": 37,
+    "observed": 34
+  },
+  {
+    "arm": "S11-support",
+    "study": "S11",
+    "kind": "support",
+    "enrolled": 37,
+    "observed": 34
+  }
+]

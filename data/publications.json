@@ -1,0 +1,134 @@
+[
+  {
+    "publication": "P0",
+    "study": "S0",
+    "effect": "E0-0",
+    "year": 2025
+  },
+  {
+    "publication": "P1",
+    "study": "S0",
+    "effect": "E0-12",
+    "year": 2026
+  },
+  {
+    "publication": "P2",
+    "study": "S0",
+    "effect": "E0-peer",
+    "year": 2025
+  },
+  {
+    "publication": "P3",
+    "study": "S1",
+    "effect": "E1-0",
+    "year": 2026
+  },
+  {
+    "publication": "P4",
+    "study": "S2",
+    "effect": "E2-0",
+    "year": 2025
+  },
+  {
+    "publication": "P5",
+    "study": "S2",
+    "effect": "E2-12",
+    "year": 2026
+  },
+  {
+    "publication": "P6",
+    "study": "S3",
+    "effect": "E3-0",
+    "year": 2025
+  },
+  {
+    "publication": "P7",
+    "study": "S3",
+    "effect": "E3-peer",
+    "year": 2026
+  },
+  {
+    "publication": "P8",
+    "study": "S4",
+    "effect": "E4-0",
+    "year": 2025
+  },
+  {
+    "publication": "P9",
+    "study": "S4",
+    "effect": "E4-12",
+    "year": 2026
+  },
+  {
+    "publication": "P10",
+    "study": "S5",
+    "effect": "E5-0",
+    "year": 2025
+  },
+  {
+    "publication": "P11",
+    "study": "S6",
+    "effect": "E6-0",
+    "year": 2026
+  },
+  {
+    "publication": "P12",
+    "study": "S6",
+    "effect": "E6-12",
+    "year": 2025
+  },
+  {
+    "publication": "P13",
+    "study": "S6",
+    "effect": "E6-peer",
+    "year": 2026
+  },
+  {
+    "publication": "P14",
+    "study": "S7",
+    "effect": "E7-0",
+    "year": 2025
+  },
+  {
+    "publication": "P15",
+    "study": "S8",
+    "effect": "E8-0",
+    "year": 2026
+  },
+  {
+    "publication": "P16",
+    "study": "S8",
+    "effect": "E8-12",
+    "year": 2025
+  },
+  {
+    "publication": "P17",
+    "study": "S9",
+    "effect": "E9-0",
+    "year": 2026
+  },
+  {
+    "publication": "P18",
+    "study": "S9",
+    "effect": "E9-peer",
+    "year": 2025
+  },
+  {
+    "publication": "P19",
+    "study": "S10",
+    "effect": "E10-0",
+    "year": 2026
+  },
+  {
+    "publication": "P20",
+    "study": "S10",
+    "effect": "E10-12",
+    "year": 2025
+  },
+  {
+    "publication": "P21",
+    "study": "S11",
+    "effect": "E11-0",
+    "year": 2026
+  }
+]

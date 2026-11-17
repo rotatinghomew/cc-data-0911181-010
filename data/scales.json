@@ -1,0 +1,20 @@
+[
+  {
+    "scale": "conf-10",
+    "construct": "confidence",
+    "higher": "better",
+    "range": [
+      0,
+      10
+    ]
+  },
+  {
+    "scale": "burden-20",
+    "construct": "burden",
+    "higher": "worse",
+    "range": [
+      0,
+      20
+    ]
+  }
+]
