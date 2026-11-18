@@ -1,6 +1,6 @@
 # 共用对照与重复随访服务
 
-项目证据目录保存研究、人群、共享试验臂、量表方向、随访和发表材料关联，当前只提供单项效果展示。
+项目证据目录保存研究、人群、共享试验臂、量表方向、随访和发表材料关联，并提供跨研究证据合成：区分独立人群、共享对照与同一人群的反复测量，只在含义相容的层内合并，未报告相关系数时给出结论对假定相关性的敏感程度，支持是否推广某类服务的判断。
 
 ## 运行环境
 
@@ -13,7 +13,7 @@ python3 -m app summary
 python3 -m app serve --host 127.0.0.1 --port 8080
 ```
 
-服务提供只读 JSON 查询：`/api/catalog`, `/api/evidence`。
+服务提供只读 JSON 查询：`/api/catalog`, `/api/evidence`, `/api/synthesis`。
 `/health` 显示存活及表计数，`/api/records?table=表名` 可查看已知数据表。
 详细字段语义、计数单位和当前能力见 `docs/数据契约.md`。
 
@@ -42,12 +42,13 @@ docker run --rm --network none evidence-network:local python3 smoke.py
 
 ## 业务办理
 
-人工选择研究与地区形成推广提案，pilot_funds.approve 在地区预算内审批，pilot_agreements.sign 按获批地区和范围签署参与确认；目前只校验来源存在和预算，不校验合成可信度、外推或重复来源。
+人工选择研究与地区形成推广提案，propose 按证据确定办理类型（promote 或补证试点 evidence_pilot，证据不足时不能按全面推广提出），pilot_funds.approve 在地区预算内审批并核对证据基线未过期，pilot_agreements.sign 按获批地区和范围签署参与确认；数据变化后未签署的试点不能沿用旧依据，已签署的确认保留并可在审计中看到基线状态。
 
 业务操作以 JSON 对象 POST 到 `/api/workflow/操作名`，下列操作保留现有函数入参和行为。
 
 - `recommendations.propose`
 - `pilot_funds.approve`
 - `pilot_agreements.sign`
+- `pilot_agreements.audit`（只读，列出三环节记录及基线是否仍然有效）
 
 业务贯通用例见 `tests/test_workflows.py`，其中为可直接运行的本地调用。默认状态存于内存；需要重启后保留时，可运行 `python3 -m app serve --state /tmp/learning-service.sqlite3`。状态库只保留本机操作，不向外部发送数据。
